@@ -33,6 +33,12 @@ tagsLimit = 20
     recentposts = false
     search = false
 
+  [params.utterances]
+    repo = "LandonJerre/landonjerre.github.io"
+	issueTerm = "title"
+	label = "Comment Thread"
+	theme = "preferred-color-scheme"
+
 [menu]
 
   [[menu.main]]
@@ -46,12 +52,6 @@ tagsLimit = 20
     name = "About"
     url = "/about/"
     weight = 2
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
 
 [taxonomies]
 category = "categories"
