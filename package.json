@@ -1,10 +1,10 @@
 {
   "name": "site",
   "version": "1.0.0",
-  "description": "",
+  "dependencies": {
     "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "postcss-cli": "^8.3.1"
+    "postcss-cli": "^8.3.1",
+    "postcss": "^8.2.8"
   },
   "devDependencies": {},
   "scripts": {
